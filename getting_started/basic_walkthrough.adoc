@@ -21,8 +21,8 @@ count (stored in a database) using the {product-title}  web console.
 The tutorial assumes that you have:
 
 - a free {product-title} (Next Gen) Developer Preview account.
-- a free https://github.com/[GitHub] account.
-- https://help.github.com/articles/set-up-git/[Git] installed locally.
+- a free GitHub account.
+- Git installed locally.
 
 [[bw-setup]]
 == Setup
@@ -32,7 +32,7 @@ on GitHub and clone the repository to your local machine so that you can deploy
 and edit the application.
 
 . On GitHub, navigate to the
-https://github.com/openshift/nodejs-ex[*openshift/nodejs-ex*] repository. In the
+*openshift/nodejs-ex* repository. In the
 top-right corner of the page, click *Fork*:
 +
 image::gs-fork.png[Fork the project]
@@ -54,8 +54,7 @@ application Git repository and a copy on your local machine.
 In this section, you will deploy your first application to {product-title} using
 the web console.
 
-. Navigate to the https://console.preview.openshift.com/console/[welcome
-page] of the {product-title} web console and click *[ New Project ]* to create
+. Navigate to the *welcome page* of the {product-title} web console and click *[ New Project ]* to create
 your first project:
 +
 [NOTE]
@@ -144,8 +143,7 @@ will automatically rebuild.
 
 In this section, you will view your running application using a web browser.
 
-In the https://console.preview.openshift.com/console/[web console], view
-the *Overview* page for your project to determine the web address for your
+In the *web console*, view the *Overview* page for your project to determine the web address for your
 application. Click the web address displayed underneath the
 *NODEJS-MONGODB-EXAMPLE* service to open your application in a new browser tab:
 
@@ -220,6 +218,6 @@ image::gs-quota.png[Quota]
 [[bw-next-up]]
 == Next Up: Beyond the Basics
 
-Next, we’ll go xref:../getting_started/beyond_the_basics.adoc#getting-started-beyond-the-basics[beyond the basics]
+Next, we’ll go *beyond the basics*
 using the {product-title} CLI to compose this same application using individual
 images.
